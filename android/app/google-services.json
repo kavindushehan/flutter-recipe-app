@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544514340862",
+    "project_id": "inlab-6756b",
+    "storage_bucket": "inlab-6756b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544514340862:android:99b794c0f9869d5175b2af",
+        "android_client_info": {
+          "package_name": "com.example.labtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544514340862-8pvk8ojj0kgnaduuf1sbifes3cukm801.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd5Jyomnzbsoxl6nTKJdHoUaOMIsI0Xjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544514340862-8pvk8ojj0kgnaduuf1sbifes3cukm801.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
