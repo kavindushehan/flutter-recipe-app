@@ -15,7 +15,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
-  Future<String?> mailRegister(String mail, String pwd) async {
+  Future<String?> userRegister(String mail, String pwd) async {
     try {
       await FirebaseAuth.instance
           .createUserWithEmailAndPassword(email: mail, password: pwd);
@@ -80,7 +80,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    mailRegister(emailController.text, passwordController.text);
+                    userRegister(emailController.text, passwordController.text);
                     emailController.clear();
                     passwordController.clear();
                   });

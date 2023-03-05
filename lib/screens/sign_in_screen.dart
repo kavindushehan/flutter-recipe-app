@@ -16,7 +16,7 @@ class _SignInScreenState extends State<SignInScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
-  Future<String?> mailSignIn(String mail, String pwd) async {
+  Future<String?> signIn(String mail, String pwd) async {
     try {
       await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: mail, password: pwd);
@@ -81,7 +81,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 child: ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      mailSignIn(emailController.text, passwordController.text);
+                      signIn(emailController.text, passwordController.text);
                       emailController.clear();
                       passwordController.clear();
                     });

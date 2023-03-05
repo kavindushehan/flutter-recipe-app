@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
               if (viewInputfields)
                 Container(
                   padding: const EdgeInsets.all(20),
-                  height: 300,
+                  height: 100,
                   width: MediaQuery.of(context).size.width * 0.9,
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey),
